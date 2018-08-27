@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cab8103a0b1dba4e965d363d159d0ad, type: 3}
-  m_Name: NewPrefab
+  m_Name: GreenCircle
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1929219456637220, guid: 821bff87bfed855439e55e5af84dd26e, type: 2}
   SpriteImage: {fileID: 21300002, guid: efdf72b3a906d8a4da4692ce858925bb, type: 3}
