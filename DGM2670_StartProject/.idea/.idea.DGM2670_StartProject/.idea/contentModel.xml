@@ -11,6 +11,7 @@
             <e p="DestroyEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="TriggerExitEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
           </e>
           <e p="EventScript.cs" t="Include" />
