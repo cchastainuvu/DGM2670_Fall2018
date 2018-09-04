@@ -15,8 +15,4 @@ public class EventScript : MonoBehaviour
         Event.Invoke();
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        Event.Invoke();
-    }
 }
