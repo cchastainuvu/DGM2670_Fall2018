@@ -194,8 +194,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 177752848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 500.71, y: 69, z: -10.496765}
-  m_LocalScale: {x: 84.53349, y: 47.148243, z: 74.30039}
+  m_LocalPosition: {x: 500.71, y: 120.33, z: -10.496765}
+  m_LocalScale: {x: 38.693993, y: 21.581432, z: 34.009937}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -212,7 +212,6 @@ GameObject:
   - component: {fileID: 535825322}
   - component: {fileID: 535825321}
   - component: {fileID: 535825320}
-  - component: {fileID: 535825325}
   m_Layer: 0
   m_Name: Pad
   m_TagString: Untagged
@@ -293,28 +292,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 535825319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 523, y: 83, z: -5}
-  m_LocalScale: {x: 222.61095, y: 24.998558, z: 222.61101}
+  m_LocalPosition: {x: 507, y: 126.74, z: -7.9807}
+  m_LocalScale: {x: 101.896965, y: 11.442732, z: 101.896996}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &535825325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 535825319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4def7c4bf2f45124c9e69880b6b5c1c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &934808953
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +373,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 934808953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 529, y: 129, z: -336}
+  m_LocalPosition: {x: 504, y: 172, z: -146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -472,6 +455,7 @@ GameObject:
   - component: {fileID: 1876922691}
   - component: {fileID: 1876922690}
   - component: {fileID: 1876922689}
+  - component: {fileID: 1876922688}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -479,13 +463,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1876922688
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876922687}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!135 &1876922689
 SphereCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1876922687}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ff16271d782a2c244bd278273f283c08, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -540,8 +539,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1876922687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 512, y: 231, z: -4}
-  m_LocalScale: {x: 54.62371, y: 54.623726, z: 54.623726}
+  m_LocalPosition: {x: 505.88, y: 168, z: -7.523}
+  m_LocalScale: {x: 20.045475, y: 20.045477, z: 20.045477}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
