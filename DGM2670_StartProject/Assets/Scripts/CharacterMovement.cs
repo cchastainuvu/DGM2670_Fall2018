@@ -7,14 +7,17 @@ public class CharacterMovement : MonoBehaviour
 {
     //CharacterController is a Collider, and can work independently of a Rigidbody.
     
-    public float speed = 6.0F;
+    //public float speed = 6.0F;
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
 
     public FloatData MoveX, MoveY, MoveZ;
+    public FloatData RotX, RotY, RotZ;
+    
     //All three are FloatData so they can be typed on the same line.
     
-    private Vector3 moveDirection = Vector3.zero;
+    private Vector3 moveDirection;
+    private Vector3 rotDirection;
     private CharacterController controller;
 
     void Start()
@@ -33,8 +36,12 @@ public class CharacterMovement : MonoBehaviour
             //Anything that is not referenced is still there. Garbage is being made by Update().
             //Making a new object isn't problematic, but it is bad if it's making 5,000+ on Update.
             moveDirection.Set(MoveX.Value,MoveY.Value,MoveZ.Value);
+            
+            transform.Rotate(rotDirection);
+            rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
+            
             moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
+            //moveDirection *= speed;
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
             
