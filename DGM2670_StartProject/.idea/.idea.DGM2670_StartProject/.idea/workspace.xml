@@ -14,14 +14,15 @@
       <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="452">
+              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
               <folding>
-                <marker date="1536772037350" expanded="true" signature="6:110" ph="..." />
-                <marker date="1536772037350" expanded="true" signature="206:1190" ph="{...}" />
-                <marker date="1536772037350" expanded="true" signature="630:709" ph="{...}" />
-                <marker date="1536772037350" expanded="true" signature="728:1188" ph="{...}" />
-                <marker date="1536772037350" expanded="true" signature="769:1070" ph="{...}" />
+                <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
+                <marker date="1536773521887" expanded="true" signature="206:1427" ph="{...}" />
+                <marker date="1536773521887" expanded="true" signature="591:706" ph="/* Vector3's default at zero automatically. ... */" />
+                <marker date="1536773521887" expanded="true" signature="737:816" ph="{...}" />
+                <marker date="1536773521887" expanded="true" signature="835:1425" ph="{...}" />
+                <marker date="1536773521887" expanded="true" signature="876:1301" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,12 +178,12 @@
       <workItem from="1536037084539" duration="1885000" />
       <workItem from="1536175077400" duration="4595000" />
       <workItem from="1536607064223" duration="3749000" />
-      <workItem from="1536768135872" duration="3520000" />
+      <workItem from="1536768135872" duration="4945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23090000" />
+    <option name="totallyTimeSpent" value="24515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,11 +231,12 @@
         <state relative-caret-position="210">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <marker date="1536772037350" expanded="true" signature="6:110" ph="..." />
-            <marker date="1536772037350" expanded="true" signature="206:1190" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="630:709" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="728:1188" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="769:1070" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
+            <marker date="1536773521887" expanded="true" signature="206:1427" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="591:706" ph="/* Vector3's default at zero automatically. ... */" />
+            <marker date="1536773521887" expanded="true" signature="737:816" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="835:1425" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="876:1301" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -280,11 +282,12 @@
         <state relative-caret-position="510">
           <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
           <folding>
-            <marker date="1536772037350" expanded="true" signature="6:110" ph="..." />
-            <marker date="1536772037350" expanded="true" signature="206:1190" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="630:709" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="728:1188" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="769:1070" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
+            <marker date="1536773521887" expanded="true" signature="206:1427" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="591:706" ph="/* Vector3's default at zero automatically. ... */" />
+            <marker date="1536773521887" expanded="true" signature="737:816" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="835:1425" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="876:1301" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -498,14 +501,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="452">
+          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
           <folding>
-            <marker date="1536772037350" expanded="true" signature="6:110" ph="..." />
-            <marker date="1536772037350" expanded="true" signature="206:1190" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="630:709" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="728:1188" ph="{...}" />
-            <marker date="1536772037350" expanded="true" signature="769:1070" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
+            <marker date="1536773521887" expanded="true" signature="206:1427" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="591:706" ph="/* Vector3's default at zero automatically. ... */" />
+            <marker date="1536773521887" expanded="true" signature="737:816" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="835:1425" ph="{...}" />
+            <marker date="1536773521887" expanded="true" signature="876:1301" ph="{...}" />
           </folding>
         </state>
       </provider>

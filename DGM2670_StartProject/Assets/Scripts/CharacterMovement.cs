@@ -9,13 +9,18 @@ public class CharacterMovement : MonoBehaviour
 
     //public float speed = 6.0F;
     public float jumpSpeed = 8.0F;
-    public float gravity = 20.0F;
 
+    public FloatData gravity;
     public FloatData MoveX, MoveY, MoveZ;
+    public FloatData RotX, RotY, RotZ;
     //FloatData can be an input (see FloatInput) or just a simple value.
     
     private CharacterController controller;
-    private Vector3 moveDirection = Vector3.zero;
+
+    private Vector3 moveDirection;
+    private Vector3 rotDirection;
+    
+    //Vector3's default at zero automatically.
     //A temporary variable to define where a character will be in X,Y,Z.
     
 
@@ -30,6 +35,10 @@ public class CharacterMovement : MonoBehaviour
         if (controller.isGrounded)
         {
             moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
+
+            rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
+            transform.Rotate(rotDirection);
+            
             moveDirection = transform.TransformDirection(moveDirection);
             //*moveDirection *= speed;
             if (Input.GetButton("Jump"))
@@ -37,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
             
         }
 
-        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.y -= gravity.Value * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
     }
