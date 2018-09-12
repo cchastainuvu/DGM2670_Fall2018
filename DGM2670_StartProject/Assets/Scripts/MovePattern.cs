@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+
+using UnityEngine;
 
 [CreateAssetMenu]
 public class MovePattern : ScriptableObject

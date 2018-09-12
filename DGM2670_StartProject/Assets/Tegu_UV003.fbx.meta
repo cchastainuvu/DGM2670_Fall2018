@@ -1,47 +1,15 @@
 fileFormatVersion: 2
-guid: ba1bc77a18fa6c142a74a3d07a381d03
+guid: e02d5fe4b9ece0e499a23e028abead98
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: polySurface21
-    100002: polySurface41
-    100004: polySurface42
-    100006: polySurface45
-    100008: polySurface46
-    100010: polySurface47
-    100012: polySurface48
-    100014: polySurface49
-    100016: polySurface49 1
-    100018: polySurface50
-    100020: //RootNode
-    100022: transform44
-    100024: transform45
-    100026: transform46
-    100028: transform47
-    100030: transform48
-    100032: transform49
-    400000: polySurface21
-    400002: polySurface41
-    400004: polySurface42
-    400006: polySurface45
-    400008: polySurface46
-    400010: polySurface47
-    400012: polySurface48
-    400014: polySurface49
-    400016: polySurface49 1
-    400018: polySurface50
-    400020: //RootNode
-    400022: transform44
-    400024: transform45
-    400026: transform46
-    400028: transform47
-    400030: transform48
-    400032: transform49
+    100000: //RootNode
+    400000: //RootNode
     2100000: Legs1_MAT
     2100002: Legs2_MAT
     2100004: Body_MAT
-    2300000: polySurface49
-    3300000: polySurface49
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: polySurface49
   externalObjects: {}
   materials:
@@ -74,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

@@ -8,7 +8,7 @@ public class CharacterMovement : MonoBehaviour
 {
 
     //public float speed = 6.0F;
-    public float jumpSpeed = 8.0F;
+    public FloatData jumpSpeed;
 
     public FloatData gravity;
     public FloatData MoveX, MoveY, MoveZ;
@@ -27,7 +27,6 @@ public class CharacterMovement : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        
     }
 
     void Update()
@@ -42,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
             moveDirection = transform.TransformDirection(moveDirection);
             //*moveDirection *= speed;
             if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+                moveDirection.y = jumpSpeed.Value;
             
         }
 
