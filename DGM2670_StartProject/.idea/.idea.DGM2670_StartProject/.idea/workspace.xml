@@ -14,7 +14,7 @@
       <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="437">
               <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
               <folding>
                 <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
@@ -108,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="240" />
     <option name="y" value="125" />
     <option name="width" value="1440" />
@@ -178,12 +178,12 @@
       <workItem from="1536037084539" duration="1885000" />
       <workItem from="1536175077400" duration="4595000" />
       <workItem from="1536607064223" duration="3749000" />
-      <workItem from="1536768135872" duration="4945000" />
+      <workItem from="1536768135872" duration="5543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24515000" />
+    <option name="totallyTimeSpent" value="25113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="437">
           <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
           <folding>
             <marker date="1536773521887" expanded="true" signature="6:110" ph="..." />
