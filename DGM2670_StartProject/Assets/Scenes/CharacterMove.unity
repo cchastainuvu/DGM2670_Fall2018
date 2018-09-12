@@ -187,13 +187,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 83051005}
-  m_LocalRotation: {x: 0.11409528, y: 0.6978403, z: -0.11409494, w: 0.6978422}
-  m_LocalPosition: {x: -3.48, y: 2.4021924, z: -0.48}
+  m_LocalRotation: {x: 0.16135482, y: 0.0000001490116, z: 0.00000001862645, w: 0.98689646}
+  m_LocalPosition: {x: 0.11, y: 1.22, z: -3.6}
   m_LocalScale: {x: 0.77490175, y: 0.77490073, z: 0.77490073}
   m_Children: []
   m_Father: {fileID: 2137524017}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 18.571001, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 18.571001, y: 0, z: 0}
 --- !u!1 &391335160
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,13 +283,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1066623790}
-  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.492, y: 0, z: 0.203}
+  m_LocalRotation: {x: -0, y: -0.000000014901161, z: -0, w: 1}
+  m_LocalPosition: {x: -0.25, y: 0, z: 0.5}
   m_LocalScale: {x: 0.13742031, y: 0.13742013, z: 0.13742013}
   m_Children: []
   m_Father: {fileID: 2137524017}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1066623792
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -455,13 +455,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661784291}
-  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: 0.49200082, y: 0, z: -0.18909994}
+  m_LocalRotation: {x: -0, y: -0.000000014901161, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1421004, y: 0, z: 0.5}
   m_LocalScale: {x: 0.13742031, y: 0.13742013, z: 0.13742013}
   m_Children: []
   m_Father: {fileID: 2137524017}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1661784293
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -564,14 +564,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed0c5598b3be0954abb3c71385359b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
   jumpSpeed: 8
   gravity: 20
   MoveX: {fileID: 11400000, guid: 1a6e3242134406a4e804643cd7869e0a, type: 2}
   MoveY: {fileID: 11400000, guid: 7aeb173ae4124e246983df01757ca499, type: 2}
   MoveZ: {fileID: 11400000, guid: 705bacca6636dc7428db0b231ef72e8f, type: 2}
-  RotX: {fileID: 11400000, guid: 7aeb173ae4124e246983df01757ca499, type: 2}
-  RotY: {fileID: 11400000, guid: 705bacca6636dc7428db0b231ef72e8f, type: 2}
-  RotZ: {fileID: 11400000, guid: 7aeb173ae4124e246983df01757ca499, type: 2}
 --- !u!65 &2137524014
 BoxCollider:
   m_ObjectHideFlags: 0

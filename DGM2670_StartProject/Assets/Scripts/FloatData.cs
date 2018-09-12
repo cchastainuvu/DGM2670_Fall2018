@@ -13,6 +13,8 @@ public class FloatData : ScriptableObject
         get {return value;}
     }
 
+//Fields automatically have get and set built into them.    
+    
 //Get is an Accessor - permits access to something. You can retrieve the value, but not set.
     
 //Parameters can contain data and return it back.
@@ -21,4 +23,6 @@ public class FloatData : ScriptableObject
     //Capable of modifying data.
     
 //Fields ARE accessible and changeable in the Unity Editor.
+    
+    //Java just has variables (fields), C# has fields AND parameters.
 }

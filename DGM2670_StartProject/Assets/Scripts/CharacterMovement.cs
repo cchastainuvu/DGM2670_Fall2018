@@ -1,52 +1,44 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(CharacterController))]
-public class CharacterMovement : MonoBehaviour 
+public class CharacterMovement : MonoBehaviour
 {
-    //CharacterController is a Collider, and can work independently of a Rigidbody.
-    
+
     //public float speed = 6.0F;
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
 
     public FloatData MoveX, MoveY, MoveZ;
-    public FloatData RotX, RotY, RotZ;
+    //FloatData can be an input (see FloatInput) or just a simple value.
     
-    //All three are FloatData so they can be typed on the same line.
-    
-    private Vector3 moveDirection;
-    private Vector3 rotDirection;
     private CharacterController controller;
+    private Vector3 moveDirection = Vector3.zero;
+    //A temporary variable to define where a character will be in X,Y,Z.
+    
 
-    void Start()
+    private void Start()
     {
         controller = GetComponent<CharacterController>();
+        
     }
-    //Line will only be run once instead of multiple instances of CharacterController.
-    
-    void Update() {
 
-       
-        if (controller.isGrounded) {
-            //isGrounded is a public bool built into the Character Controller.
-            //moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            //Vector3 is being continually replaced when keyword "new" is used.
-            //Anything that is not referenced is still there. Garbage is being made by Update().
-            //Making a new object isn't problematic, but it is bad if it's making 5,000+ on Update.
-            moveDirection.Set(MoveX.Value,MoveY.Value,MoveZ.Value);
-            
-            transform.Rotate(rotDirection);
-            rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
-            
+    void Update()
+    {
+        if (controller.isGrounded)
+        {
+            moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
             moveDirection = transform.TransformDirection(moveDirection);
-            //moveDirection *= speed;
+            //*moveDirection *= speed;
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
             
         }
+
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+
     }
 }

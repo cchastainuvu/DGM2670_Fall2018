@@ -18,6 +18,7 @@
           <e p="EventScript.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>

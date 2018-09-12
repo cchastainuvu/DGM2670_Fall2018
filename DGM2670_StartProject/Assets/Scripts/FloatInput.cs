@@ -6,10 +6,9 @@ public class FloatInput : FloatData {
 //Can be referenced in a FloatData slot.
     
     public string InputType;
-    
+
     public override float Value
     {
         get {return Input.GetAxis(InputType)*value;}
     }
-    
 }
