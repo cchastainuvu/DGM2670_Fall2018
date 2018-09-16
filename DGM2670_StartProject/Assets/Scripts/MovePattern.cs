@@ -1,13 +1,11 @@
-﻿using System.Collections;
-
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu]
 public class MovePattern : ScriptableObject
 {
 
-    public float jumpSpeed = 8.0F;
-    public float gravity = 20.0F;
+    public FloatData jumpSpeed;
+    public FloatData gravity;
 
     public FloatData MoveX, MoveY, MoveZ;
     public FloatData RotX, RotY, RotZ;
@@ -25,16 +23,16 @@ public class MovePattern : ScriptableObject
         {
 
             moveDirection.Set(MoveX.Value, MoveY.Value, MoveZ.Value);
-
             transform.Rotate(rotDirection);
             rotDirection.Set(RotX.Value, RotY.Value, RotZ.Value);
-
             moveDirection = transform.TransformDirection(moveDirection);
 
             if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+                moveDirection.y = jumpSpeed.Value;
 
         }
 
+        moveDirection.y -= gravity.Value * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
     }
 }
