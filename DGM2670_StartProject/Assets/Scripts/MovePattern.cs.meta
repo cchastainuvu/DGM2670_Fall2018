@@ -3,7 +3,15 @@ guid: 580ad3714226c174aad11163bb8a6724
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - jumpSpeed: {instanceID: 0}
+  - gravity: {instanceID: 0}
+  - MoveX: {instanceID: 0}
+  - MoveY: {instanceID: 0}
+  - MoveZ: {instanceID: 0}
+  - RotX: {instanceID: 0}
+  - RotY: {instanceID: 0}
+  - RotZ: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
